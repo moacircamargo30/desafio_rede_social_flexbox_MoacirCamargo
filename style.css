@@ -1,0 +1,67 @@
+div {
+  border: 1px solid blue;
+  width: 45%;
+  float:left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  position: relative;
+  overflow:hidden;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+section{
+  background: lightgrey;
+  border: 1px solid blue;
+  width: 90%;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+#user {
+  width:110px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#facebook {
+  width: 25px;
+}
+#linkedin {
+  width: 25px;
+}
+#twitter {
+  width: 25px;
+}
+h3 {
+  font-family: sans-serif;
+}
+
+article {
+  font-family: sans-serif;
+  left:10px;
+}
+
+button {
+  color:white;
+  background-color: gray;
+  width: 25%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.usuario {
+  width: 20%;
+  display:flex;
+  justify-content: space-around;
+  border: none;
+}
+.perfil {
+  float:right;
+  width: 64%;
+  border: none;
+}
